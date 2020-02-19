@@ -1,0 +1,25 @@
+17:00:31.250 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+17:00:31.341 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-02-18 17:00:31.411:INFO::main: Logging initialized @476ms to org.seleniumhq.jetty9.util.log.StdErrLog
+17:00:31.699 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+17:00:31.802 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+17:00:32.293 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true,
+  "marionette": true,
+  "name": "Nightwatch Test On Google"
+}
+17:00:32.295 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 24493
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+17:00:37.028 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+17:00:37.078 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 31ce6e1d28fa93651f5780d964a13a28 (org.openqa.selenium.chrome.ChromeDriverService)
+[1582070438.248][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582070438.430][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582070438.725][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582070438.826][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582070438.927][SEVERE]: Timed out receiving message from renderer: 0.100
+[1582070439.031][SEVERE]: Timed out receiving message from renderer: 0.100
+17:00:40.270 INFO [ActiveSessions$1.onStop] - Removing session 31ce6e1d28fa93651f5780d964a13a28 (org.openqa.selenium.chrome.ChromeDriverService)
